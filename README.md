@@ -1,0 +1,1 @@
+# paleta-cores-1D
