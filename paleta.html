@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="paleta.css">
+    
+</head>
+<body>
+    <div class="container" id="container">
+      <h1>Vannila</h1><br><br>
+      <!-- botao cor Q vanilla-->
+      <button id="v-191B50" >
+          <div class="card" id="v-191B50">
+            <div class="card-body">
+              <h3 class="card-title">#191B50</h3>
+            </div>
+          </div>
+      </button>
+      <!-- botao cor M vanilla-->
+      <button id="v-353C7B">
+            <div class="card" id="v-353C7B">
+              <div class="card-body">
+                <h3 class="card-title">#353C7B</h3>
+              </div>
+            </div>
+      </button>
+      <!-- botao cor E vanilla-->
+      <button id="v-5D6398">
+            <div class="card" id="v-5D6398">
+              <div class="card-body">
+                <h3 class="card-title">#5D6398</h3>
+              </div>
+            </div>
+      </button>
+      <!-- botao cor R vanilla-->
+      <button id="v-8682B5">
+        <div class="card" id="v-8682B5">
+          <div class="card-body">
+            <h3 class="card-title">#8682B5</h3>
+          </div>
+        </div>
+      </button>
+      <!-- botao cor T vanilla-->
+      <button id="v-181E22">
+        <div class="card" id="v-181E22">
+          <div class="card-body">
+            <h3 class="card-title">#181E22f</h3>
+          </div>
+        </div>
+      </button>
+<br>
+<br>
+        <!-- botao cor A vanilla-->
+        <button id="v-FEFEFE">
+          <div class="card" id="v-FEFEFE">
+            <div class="card-body">
+              <h3 class="card-title">#FEFEFE</h3>
+            </div>
+          </div>
+        </button>
+        <!-- botao cor S vanilla-->
+        <button id="v-FE7372">
+          <div class="card" id="v-FE7372">
+            <div class="card-body">
+              <h3 class="card-title">#FE7372</h3>
+            </div>
+          </div>
+        </button>
+        <!-- botao cor D vanilla-->
+        <button id="v-F74C4C">
+          <div class="card" id="v-F74C4C">
+            <div class="card-body">
+              <h3 class="card-title">#F74C4C</h3>
+            </div>
+          </div>
+        </button>
+        <!-- botao cor F vanilla-->
+        <button id="v-A83635">
+          <div class="card" id="v-A83635">
+            <div class="card-body">
+              <h3 class="card-title">#A83635</h3>
+            </div>
+          </div>
+        </button>
+        <!-- botao cor G vanilla-->
+        <button id="v-4CF74D">
+          <div class="card" id="v-4CF74D">
+            <div class="card-body">
+              <h3 class="card-title">#4CF74D</h3>
+            </div>
+          </div>
+        </button>
+<br>
+</div>
+    <script>
+      function Clipboard_CopyTo(value) {
+      var tempInput = document.createElement("input");
+      tempInput.value = value;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+      }
+      //cor Q paleta vanilla
+      document.querySelector('#v-191B50').onclick = function() {
+      Clipboard_CopyTo('#191B50');}
+      //cor M paleta vanilla
+      document.querySelector('#v-353C7B').onclick = function() {
+      Clipboard_CopyTo('#353C7B');
+      }
+      //cor E paleta vanilla
+      document.querySelector('#v-5D6398').onclick = function() {
+      Clipboard_CopyTo('#5D6398');
+      }
+      //cor R paleta vanilla
+      document.querySelector('#v-8682B5').onclick = function() {
+      Clipboard_CopyTo('#8682B5');
+      }
+      //cor T paleta vanilla
+      document.querySelector('#v-181E22').onclick = function() {
+      Clipboard_CopyTo('#181E22');
+      }
+      
+      //cor A paleta vanilla
+      document.querySelector('#v-FEFEFE').onclick = function() {
+      Clipboard_CopyTo('#FEFEFE');
+      }
+      //cor S paleta vanilla
+      document.querySelector('#v-FE7372').onclick = function() {
+      Clipboard_CopyTo('#FE7372');
+      }
+      //cor D paleta vanilla
+      document.querySelector('#v-F74C4C').onclick = function() {
+      Clipboard_CopyTo('#F74C4C');
+      }
+      //cor F paleta vanilla
+      document.querySelector('#v-A83635').onclick = function() {
+      Clipboard_CopyTo('#A83635');
+      }
+      //cor G paleta vanilla
+      document.querySelector('#v-4CF74D').onclick = function() {
+      Clipboard_CopyTo('#4CF74D');
+      }
+    </script>
+
+</body>
+</html>
